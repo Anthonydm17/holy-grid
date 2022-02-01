@@ -1,7 +1,7 @@
 #app {
   display: grid;
   height: 600px;
-  width: 800px;
+  width: 700px;
   font-size: 3em;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1 fr 1fr 1fr 1fr;
@@ -25,7 +25,6 @@
 #article-1 {
   background-color: yellow;
   grid-area: article-1;
-  width: 600px;
 }
 
 #article-2 {
@@ -36,11 +35,9 @@
 #nav {
   background-color: orange;
   grid-area: nav;
-  width: 100px;
 }
 
 #ad-area {
   background-color: blue;
   grid-area: ad-area;
-  width: 100px;
 }
